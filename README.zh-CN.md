@@ -1,4 +1,4 @@
-# 天知强卡器文档
+# 天知强卡器
 
 网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
 

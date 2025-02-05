@@ -38,7 +38,7 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: '天知强卡器文档',
+    name: '天知强卡器',
     description: '天知强卡器的文档网站',
     // circle: true,
     // location: '',

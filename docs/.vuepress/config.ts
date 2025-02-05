@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '天知强卡器文档',
+  title: '天知强卡器',
   description: '天知强卡器的文档网站',
 
   head: [
@@ -21,7 +21,7 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
+    // docsRepo: 'https://github.com/a1929238/TCEDocs.git',
     // docsDir: 'docs',
     // docsBranch: '',
 
