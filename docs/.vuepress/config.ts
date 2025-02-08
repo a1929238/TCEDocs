@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/image/furina.ico' }],
   ],
 
   bundler: webpackBundler(),
@@ -21,21 +21,21 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: 'https://github.com/a1929238/TCEDocs.git',
-    // docsDir: 'docs',
+    docsRepo: 'https://github.com/a1929238/TCEDocs',
+    docsDir: 'docs',
     // docsBranch: '',
 
     /* 页内信息 */
-    // editLink: true,
-    // lastUpdated: true,
-    // contributors: true,
+    editLink: true,
+    lastUpdated: { formatOptions: { dateStyle: 'short', timeStyle: 'short' } },
+    contributors: true,
     // changelog: false,
 
     /**
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
-    // blog: false, // 禁用博客
+    blog: false, // 禁用博客
     // blog: {
     //   postList: true, // 是否启用文章列表页
     //   tags: true, // 是否启用标签页
@@ -58,24 +58,24 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
-    // autoFrontmatter: {
-    //   permalink: true,  // 是否生成永久链接
-    //   createTime: true, // 是否生成创建时间
-    //   title: true,      // 是否生成标题
-    // },
+    autoFrontmatter: {
+      permalink: true,  // 是否生成永久链接
+      createTime: true, // 是否生成创建时间
+      title: true,      // 是否生成标题
+    },
 
     plugins: {
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
-      //   // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-      //   twoslash: true, // 启用 twoslash
-      //   whitespace: true, // 启用 空格/Tab 高亮
-      //   lineNumbers: true, // 启用行号
-      // },
+      shiki: {
+        // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['shell', 'bash', 'typescript', 'javascript'],
+        twoslash: true, // 启用 twoslash
+        whitespace: true, // 启用 空格/Tab 高亮
+        lineNumbers: true, // 启用行号
+      },
 
       /* 本地搜索, 默认启用 */
       // search: true,
@@ -92,7 +92,7 @@ export default defineUserConfig({
       // },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
-      // readingTime: true,
+      readingTime: { wordPerMinute: 300 },
 
       /**
        * markdown enhance
