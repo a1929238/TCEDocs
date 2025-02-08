@@ -7,7 +7,11 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '天知强卡器',
   description: '天知强卡器的文档网站',
-
+  markdown: {
+    assets:{
+      absolutePathPrependBase: true
+    }
+  },
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: '/image/furina.ico' }],
