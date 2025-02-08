@@ -8,10 +8,6 @@ export default defineUserConfig({
   title: '天知强卡器',
   description: '天知强卡器的文档网站',
 
-  define: {
-    IMG_BASE: process.env.NODE_ENV === 'production' ? '/TCEDocs' : '',
-  },
-
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: '/image/furina.ico' }],
