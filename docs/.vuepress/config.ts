@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/TCEDocs/',
   lang: 'zh-CN',
   title: '天知强卡器',
   description: '天知强卡器的文档网站',
