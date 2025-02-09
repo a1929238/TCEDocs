@@ -12,10 +12,10 @@ export default defineUserConfig({
       absolutePathPrependBase: true
     }
   },
-  // head: [
-  //   // 配置站点图标
-  //   ['link', { rel: 'icon', type: 'image/x-icon', href: '$withBase(/image/furina.ico)' }],
-  // ],
+  head: [
+    // 配置站点图标
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/TCEDocs/image/furina.ico' }],
+  ],
 
   bundler: webpackBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
