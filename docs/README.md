@@ -30,7 +30,7 @@ config:
       -
         title: 卡片强化
         icon: 🎴
-        details: 以任何方式，使用任何种类卡片进行任何等级的强化
+        details: 以任意方式，使用任意种类卡片进行任意等级的强化
       -
         title: 宝石管理
         icon: 💎

@@ -14,7 +14,7 @@ export default defineUserConfig({
   },
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/image/furina.ico' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '$withBase(/image/furina.ico)' }],
   ],
 
   bundler: webpackBundler(),
