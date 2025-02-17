@@ -5,8 +5,7 @@ config:
   -
     type: hero
     full: true
-    background: tint-plate
-    tintPlate: 140, 204, 213
+    background: image/furina_background.jpg
     hero:
       name: 天知强卡器
       tagline: 美食大战老鼠卡片管理助手
