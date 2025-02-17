@@ -3,9 +3,9 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: banner
+    banner: image/furina_background.jpg
     full: true
-    background: image/furina_background.jpg
     hero:
       name: 天知强卡器
       tagline: 美食大战老鼠卡片管理助手
